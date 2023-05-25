@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(119, 98, 118);
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-image: url(index.html);
+}
+
+div{
+    text-align: center;
+    padding-top: 10px;
+    width: 200px;
+    margin: 0px 700px 20px ;
+    margin-top: 270px;
+    border: 2px solid rgb(161, 0, 224) ;
+}

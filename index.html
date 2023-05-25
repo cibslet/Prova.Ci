@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <label for="username">Seu Nome:</label>
+        <input type="text" id="username" name="username"><br><br>
+    
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password"><br><br>
+    
+        <input type="button" value="Entrar" onclick="verificarLogin()">
+    </div>
+</body>
+<script>
+    function verificarLogin() {
+      var username = document.getElementById("username").value;
+      var password = document.getElementById("password").value;
+
+      if (username === "cibs" && password === "123") {
+        alert("Deu certo!");
+        location.href="img.html"
+      } else {
+        alert("Deu errado!");
+      }
+    }
+    </script>
+</html>
